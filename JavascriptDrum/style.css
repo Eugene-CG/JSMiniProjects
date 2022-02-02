@@ -1,0 +1,41 @@
+* *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 98vw;
+    height: 100vh;
+    background-color: rgb(209, 209, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keys {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+.key {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    transition: all 0.07s ease-in;
+    background: rgb(253, 255, 128);
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: white;
+}
+ 
+
+
+ 
