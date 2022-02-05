@@ -8,3 +8,5 @@ Projects on codepen:
 2.Javascript Drum - https://codepen.io/Yevgen_Kotyk/pen/vYWGMVQ
 
 3.ArrayCardio - dont need codepen for this
+
+4.Flex Gallery - 
