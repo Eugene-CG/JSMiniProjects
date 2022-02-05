@@ -1,0 +1,55 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+    color: #fff;
+    scroll-behavior: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrap {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.panel {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    box-shadow: 2px 0 2px 3px rgb(100, 96, 96), -2px 0px 2px 3px rgb(100, 96, 96);
+    transition: 1.2s ease-in-out, font-size 1s, flex 0.9s ease-in-out, transform 0.7s, opacity 1s;
+    
+}
+
+
+.panel1 {background-image: url(IMG/universe-1.jpg);}
+
+.panel2 {background-image: url(IMG/universe-2.jpg);}
+
+.panel3 {background-image: url(IMG/universe-3.jpg);}
+
+.panel4 {background-image: url(IMG/universe-4.jpg);}
+
+.panel5 {background-image: url(IMG/universe-5.jpeg);}
+
+.open {
+    flex: 5;
+    font-size: 1.5em;
+    opacity: 0.9;
+}
+
+.open > * {
+    color: black;
+    transition: 1s;
+}
